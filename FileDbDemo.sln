@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDbDemo", "FileDbDemo\FileDbDemo.csproj", "{3CDE3A9B-88F4-4222-8F14-12C2F81B1ED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskCameraModule", "..\KioskCamera\KioskCameraModule\KioskCameraModule.csproj", "{37D651ED-6569-42B5-A72C-30B684BAEB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskCameraModuleAForge", "KioskCameraModuleAForge\KioskCameraModuleAForge.csproj", "{8B3A8F9A-516D-4BBA-A504-A7DCF5C811A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3CDE3A9B-88F4-4222-8F14-12C2F81B1ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDE3A9B-88F4-4222-8F14-12C2F81B1ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDE3A9B-88F4-4222-8F14-12C2F81B1ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D651ED-6569-42B5-A72C-30B684BAEB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D651ED-6569-42B5-A72C-30B684BAEB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D651ED-6569-42B5-A72C-30B684BAEB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D651ED-6569-42B5-A72C-30B684BAEB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3A8F9A-516D-4BBA-A504-A7DCF5C811A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3A8F9A-516D-4BBA-A504-A7DCF5C811A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3A8F9A-516D-4BBA-A504-A7DCF5C811A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3A8F9A-516D-4BBA-A504-A7DCF5C811A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

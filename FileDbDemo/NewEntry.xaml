@@ -1,0 +1,36 @@
+﻿<Window x:Class="FileDbDemo.NewEntry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileDbDemo"
+        mc:Ignorable="d"
+        Title="NewEntry" Height="295.758" Width="421.212" WindowStartupLocation="CenterOwner">
+    <StackPanel>
+        <Label Content="New Entry" Background="Beige" FontWeight="Bold" Margin="10"></Label>
+        <Grid VerticalAlignment="Top" Margin="10,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Content="Author's Name"></Label>
+            <TextBox Margin="0,5" Grid.Column="1" Grid.Row="0" Name="txtAuthorsName" HorizontalAlignment="Center" Width="250"></TextBox>
+
+            <Label Grid.Column="0" Grid.Row="1" Content="Book Title"></Label>
+            <TextBox Margin="0,5" Grid.Column="1" Grid.Row="1" Name="txtTitle" HorizontalAlignment="Center" Width="250"></TextBox>
+
+            <Label Grid.Column="0" Grid.Row="2" Content="MVP"></Label>
+            <TextBox Margin="0,5" Grid.Column="1" Grid.Row="2" Name="txtMvp" HorizontalAlignment="Center" Width="250"></TextBox>
+            <StackPanel Margin="0, 10" Grid.Column="1" Grid.Row="3" Height="25" Orientation="Vertical" HorizontalAlignment="Right">
+                <Button Content="Submit" Name="btnSubmit" Click="DoSubmitBook"></Button>
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>
